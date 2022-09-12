@@ -3,7 +3,7 @@ class Cabecera extends React.Component{ // definimos el componente
     render(){
         return (
             <div id="Cabecera">
-               <a href=""><image href='../logo.svg'/>CABECERA</a>
+               <a href=""><image href='file:///C:/USers/fcerrajero/Downloads/Flores.jpg'/> aa CABECERA</a>
             </div>);
            
     }
