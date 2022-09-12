@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Menu from './components/Menu';
 import Cabecera from './components/Cabecera';
 import PiePagina from './components/PiePagina';
 import ContenidoPaginaPrincipal from './components/ContenidoPaginaPrincipal';
 import FichaCliente from './components/FichaCliente';
+import FormularioLogin from './components/FormularioLogin';
 
 function App() {
   return (
@@ -18,6 +17,9 @@ function App() {
       </ContenidoPaginaPrincipal>
       <FichaCliente nombre='Fernando' dni='1R' ></FichaCliente>
       <FichaCliente nombre='Otro distinto' dni='6K' direccion='C/ noexiste s/n' telefono={666112233}></FichaCliente>
+
+<FormularioLogin></FormularioLogin>
+
       <PiePagina></PiePagina>
     </div>
   );
