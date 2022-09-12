@@ -4,7 +4,8 @@ import './App.css';
 import Menu from './components/Menu';
 import Cabecera from './components/Cabecera';
 import PiePagina from './components/PiePagina';
-import ContenidoPaginaPrincipal from './components/Cabecera copy';
+import ContenidoPaginaPrincipal from './components/ContenidoPaginaPrincipal';
+import FichaCliente from './components/FichaCliente';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
     <Cabecera></Cabecera>
     </h1>
       <Menu></Menu>
-      <ContenidoPaginaPrincipal></ContenidoPaginaPrincipal>
+      <ContenidoPaginaPrincipal>
+      </ContenidoPaginaPrincipal>
+      <FichaCliente nombre='Fernando' dni='1R' ></FichaCliente>
+      <FichaCliente nombre='Otro distinto' dni='6K' direccion='C/ noexiste s/n' telefono={666112233}></FichaCliente>
       <PiePagina></PiePagina>
     </div>
   );
